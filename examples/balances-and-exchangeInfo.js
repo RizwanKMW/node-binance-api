@@ -42,7 +42,7 @@ binance.exchangeInfo((error, data) => {
 		balance();
 	});
 });
-
+  
 // Get your balances
 function balance() {
 	binance.balance((error, balances) => {
